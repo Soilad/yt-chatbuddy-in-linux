@@ -24,7 +24,7 @@ def tts(id):
                 txt.write(f'{usr} says:')
             print(acc,tmp)
             print(f"{c.author.name}:\n {msg}")
-            popen(f'espeak -d {mic_id} -a 200 -v en+f5 "{msg}{also}"')
+            popen(f'espeak -d {mic_id} -a 200 -v en+f5 "{msg}"')
 
 
 if __name__ == '__main__':
