@@ -1,14 +1,15 @@
 # yt-chatbuddy-in-linux
 a python script that tts's yt live chat
 REQUIREMENTS:
-python:
-  pytchat
-  os
-  subprocess
-  time
-  random
-pulseaudio
-espeak
+Python:
+pytchat
+os
+subprocess
+time
+random
+
+Pulseaudio
+Espeak
 
 HOW TO RUN????
 run the python script & give it the link to your livestream
