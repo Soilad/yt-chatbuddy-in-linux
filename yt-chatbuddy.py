@@ -22,7 +22,6 @@ def tts(id):
                 txt.write(msg)
             with open(f'{path.dirname(path.realpath(__file__))}/usr.txt','w') as txt:
                 txt.write(f'{usr} says:')
-            print(acc,tmp)
             print(f"{c.author.name}:\n {msg}")
             popen(f'espeak -d {mic_id} -a 200 -v en+f5 "{msg}"')
 
